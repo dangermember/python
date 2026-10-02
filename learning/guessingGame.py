@@ -29,5 +29,5 @@ while True:
     y = input() # Get the player's response
     
     # If the player does not want to play again, exit the loop
-    if y == 'n' or y == 'N':
+    if y.lower() == 'n' :
         break
